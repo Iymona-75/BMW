@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+}
+
+.conteiner{
+    max-width: 1550px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.ris{
+    height: 100vh;
+    background: url(
+     "https://bmw.scene7.com/is/image/BMW/UC_KV:2to1?fmt=webp&wid=1504&hei=750"
+       )center / cover no-repeat;
+    width: 100%;
+}
+
+
+.row{
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-style: groove;
+    
+    gap: 10rem;
+    display: flex;
+    align-items:flex-start;
+    width: 100%;
+
+}
+.risunok{
+    display: flex;
+    margin: 50px 50px ;
+    border-radius: 50%;
+}
+
+
+.list_container{
+    margin-top: 70px ; 
+}
+.list{
+    gap: 1.5rem;
+    display: flex;
+}
+
+.list:hover{
+    border-bottom-color: rgb(255, 0, 0);
+    border-bottom-style: groove; 
+}
+
+hr{
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.lion_container{
+    display: flex;
+    gap: 2rem;
+    margin-top: 70px ; 
+
+}
+i{    
+    color: white;
+}
+
+
+
